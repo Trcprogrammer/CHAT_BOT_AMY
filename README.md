@@ -1,4 +1,4 @@
-SafeNet Chatbot README
+SafeNet Chatbot
 A conversational AI chatbot designed to interact with users in a natural and intuitive way.
 
 Features
