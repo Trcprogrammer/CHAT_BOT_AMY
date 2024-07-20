@@ -10,7 +10,7 @@ class GeminiChat:
         self.master.geometry("400x600")
 
         # Set up Gemini API key
-        self.GOOGLE_API_KEY = 'AIzaSyB59rBGeRBGImIwtNUfLNRtVyWmtHwm67o'
+        self.GOOGLE_API_KEY = 'apy_kay'
         os.environ['GOOGLE_API_KEY'] = self.GOOGLE_API_KEY
         genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
@@ -31,17 +31,7 @@ class GeminiChat:
         self.clear_button.pack(padx=20, pady=20)
 
 
-    # def send_message(self): 
-    #     user_input = self.input_field.get()
-    #     self.input_field.delete(0, tk.END)
 
-    #     # Generate response using Gemini model
-    #     respuesta = self.modelo.generate_content(user_input)
-    #     respuesta = respuesta.text
-
-    #     # Display response in chat history
-    #     self.chat_history.insert(tk.END, f"User: {user_input}\n")
-    #     self.chat_history.insert(tk.END, f"AMY: {respuesta}\n")
     def send_message(self):
         user_input = self.input_field.get()
         self.input_field.delete(0, tk.END)
