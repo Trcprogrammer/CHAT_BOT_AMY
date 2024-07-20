@@ -1,7 +1,7 @@
 import tkinter as tk
 import os
 import google.generativeai as genai
-
+#tracy
 class GeminiChat:
     def __init__(self, master):
         self.master = master
